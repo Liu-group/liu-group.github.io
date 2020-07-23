@@ -10,7 +10,7 @@ title: Tutorial 0. Basics of running molecular simulation
 ### Introduction
 Instead of introducing the theories and models of different types of molecular simulation, we will start with an example to show a typical simulation task.
 
-![Simulation]({{ site.url }}{{ site.baseurl }}/images/tutorial-1/simulation.png)
+![Simulation]({{ site.url }}{{ site.baseurl }}/images/tutorial-0/simulation.png)
 
 A researcher get involved in a molecular simulation task from multiple aspects:
 
@@ -32,7 +32,7 @@ Here we will go over the above described process for one simple example: finding
 (1) Preparation of the representation of the molecule.
 
 Since our target is the equilibrium structure, we do need some 3D structure information. One simple and commonly used format is the **xyz** format. It describe the element symbol and location (in cartesian coordinates) of each atom in the molecule.
-
+{: #initxyz }
 {% highlight plaintext %}
 3
 water initial structure
