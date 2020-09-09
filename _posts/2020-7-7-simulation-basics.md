@@ -4,7 +4,7 @@ title: Tutorial 0. Basics of running molecular simulation
 ---
 
 ### Learning objectives
-* Run a simple molecular simulation
+* Run a simple quantum chemistry calculation
 * Understand the different aspects a researcher contribute to a computational project.
 
 ### Introduction
@@ -12,7 +12,7 @@ Instead of introducing the theories and models of different types of molecular s
 
 ![Simulation]({{ site.url }}{{ site.baseurl }}/images/tutorial-0/simulation.png)
 
-A researcher get involved in a molecular simulation task from multiple aspects:
+A researcher get involved in a quantum chemistry calculation task from multiple aspects:
 
 1. Preparation of the representation of the molecule. We tell the molecular simulation program what system we study. Depending on the specific simulation program, the required representation of the molecule could be 3D structure or other type of information (e.g. chemical informatics formats, features for machine learning models).
 
