@@ -1,0 +1,74 @@
+I"�<h3 id="learning-objectives">Learning objectives</h3>
+<ul>
+  <li>Get familiar with different ways to run python</li>
+  <li>Set up your personal computer ready to run Jupyter Notebook</li>
+  <li>Learn to run Jupyter Notebook from remote cluster through port forwarding</li>
+</ul>
+
+<h3 id="introduction">Introduction</h3>
+<p>Python is useful for computational chemistry in multiple aspects. In <a href="http://localhost:4000/python-basics">Tuotorial 1</a>, we have demonstrated how we can use python to generate input files and analyze output files. Python can also be used for big data analysis, machine learning, and generating publication-quality figures.</p>
+
+<p>Common ways to run python include:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Run python in …</th>
+      <th>Use case</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>command line</td>
+      <td>building a package and run on remote computer clusters</td>
+    </tr>
+    <tr>
+      <td>interactive session</td>
+      <td>simple tasks like: using python as a calculator; checking whether some packages can be loaded</td>
+    </tr>
+    <tr>
+      <td>Jupyter Notebook</td>
+      <td>integrate different usages of Python together in one place</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>For the first two options, please refer to <a href="https://realpython.com/run-python-scripts/">this tutorial</a></p>
+
+<h3 id="try-and-learn">Try and Learn</h3>
+
+<p>Here we will demonstrate a few different ways to run Jupyter Notebook.</p>
+
+<p><img src="http://localhost:4000/images/tutorial-3/ethylene.gif" alt="ethylene" /></p>
+
+<p>The task includes some review of preparing input files and read output files, and the new experience about <em>submitting jobs</em>. We will use the Xsede Comet GPU resources, assuming you have obtained an account.</p>
+
+<p>(0) Log into the computing cluster.</p>
+
+<p>You can find a detailed instruction on the <a href="https://portal.xsede.org/sdsc-comet#access:login">Xsede website</a></p>
+
+<p>(1) Preparation of initial structure of ethylene molecule  <em>c2h4.xyz</em></p>
+
+<p>This can be most easily done by drawing or inserting fragments in <a href="https://avogadro.cc/">Avogadro</a>.</p>
+
+<p>(2) Prepare the input file for TeraChem: <em>geoopt.in</em></p>
+
+<p>This can be done in a few different ways.</p>
+<ul>
+  <li><a href="https://avogadro.cc/">Avogadro</a>  has an input file generation functionality</li>
+  <li>Check <a href="http://www.petachem.com/doc/userguide.pdf">TeraChem UserGuide</a> and follow the instructions there.</li>
+  <li>Ask your colleagues for example input file and modify from there</li>
+</ul>
+
+<p>(3) Prepare a jobscript.
+This can be done in a few different ways.</p>
+<ul>
+  <li>Check out the <a href="https://portal.xsede.org/sdsc-comet#access:login">documentation</a> of the computer cluster</li>
+  <li>Ask your colleagues for example jobscript</li>
+</ul>
+
+<p>(4) Read through the output files of your calculation and look for the optimized structure. Find the optimal bond lengths, angles, and dihedrals.</p>
+<ul>
+  <li>Check the “geometry optimization” related sections in <a href="http://www.petachem.com/doc/userguide.pdf">TeraChem UserGuide</a> and see whether the structure files are</li>
+</ul>
+:ET

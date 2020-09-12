@@ -1,0 +1,47 @@
+I"‰<h3 id="learning-objectives">Learning objectives</h3>
+<ul>
+  <li>Get familiar with different ways to run python</li>
+  <li>Set up your personal computer ready to run Jupyter Notebook</li>
+  <li>Learn to run Jupyter Notebook from remote cluster through port forwarding</li>
+</ul>
+
+<h3 id="introduction">Introduction</h3>
+<p>Python is useful for computational chemistry in multiple aspects. In <a href="http://localhost:4000/python-basics">Tuotorial 1</a>, we have demonstrated how we can use python to generate input files and analyze output files. Python can also be used for big data analysis, machine learning, and generating publication-quality figures.</p>
+
+<p>Common ways to run python include:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Run python in â€¦</th>
+      <th>Use case</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>command line</td>
+      <td>building a package and run on remote computer clusters</td>
+    </tr>
+    <tr>
+      <td>interactive session</td>
+      <td>simple tasks like: using python as a calculator; checking whether some packages can be loaded</td>
+    </tr>
+    <tr>
+      <td>Jupyter Notebook</td>
+      <td>integrate different usages of Python together in one place</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>For the first two options, please refer to <a href="https://realpython.com/run-python-scripts/">this tutorial</a>. We will focus on the Jupyter Notebook.</p>
+
+<h3 id="try-and-learn">Try and Learn</h3>
+
+<p>Here we will demonstrate a few different ways to run Jupyter Notebook.</p>
+
+<ol>
+  <li>Use Readily available online service, such as <a href="https://chemcompute.org/">https://chemcompute.org/</a></li>
+</ol>
+
+<p>2.</p>
+:ET

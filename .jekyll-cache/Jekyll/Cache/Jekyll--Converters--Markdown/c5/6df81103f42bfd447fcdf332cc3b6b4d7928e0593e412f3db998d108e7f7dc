@@ -1,0 +1,69 @@
+I"M<h3 id="learning-objectives">Learning objectives</h3>
+<ul>
+  <li>Get familiar with different ways to run python</li>
+  <li>Set up your personal computer ready to run Jupyter Notebook</li>
+  <li>Learn to run Jupyter Notebook from remote cluster through port forwarding</li>
+</ul>
+
+<h3 id="introduction">Introduction</h3>
+<p>Python is useful for computational chemistry in multiple aspects. In <a href="http://localhost:4000/python-basics">Tuotorial 1</a>, we have demonstrated how we can use python to generate input files and analyze output files. Python can also be used for big data analysis, machine learning, and generating publication-quality figures.</p>
+
+<p>Common ways to run python include:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Run python in …</th>
+      <th>Use case</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>command line</td>
+      <td>building a package and run on remote computer clusters</td>
+    </tr>
+    <tr>
+      <td>interactive session</td>
+      <td>simple tasks like: using python as a calculator; checking whether some packages can be loaded</td>
+    </tr>
+    <tr>
+      <td>Jupyter Notebook</td>
+      <td>integrate different usages of Python together in one place</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>For the first two options, please refer to <a href="https://realpython.com/run-python-scripts/">this tutorial</a>. We will focus on the Jupyter Notebook.</p>
+
+<h3 id="try-and-learn">Try and Learn</h3>
+
+<p>Here we will demonstrate a few different ways to run Jupyter Notebook.</p>
+
+<h2 id="1-use-readily-available-online-service">1. Use Readily available online service.</h2>
+<p>For example, from the XSEDE computational chemistry website: <a href="https://chemcompute.org/jupyterhub">https://chemcompute.org/jupyterhub</a>. There are many good examples of using Jupyter Notebooks for computational chemistry on that website. Please check them out.</p>
+
+<p><strong>Pro</strong>: No need to set up your own computer environment. Good for beginners.</p>
+
+<p><strong>Con</strong>: Need to upload your files. May not be convenient enough for daily code development.</p>
+
+<h2 id="2-set-up-your-own-computer-to-run-jupyter-notebook">2. Set up your own computer to run Jupyter Notebook.</h2>
+<p>Please follow the guidance of this <a href="https://www.dataquest.io/blog/jupyter-notebook-tutorial/">website</a></p>
+
+<p><strong>Con</strong>: More complicated set up</p>
+
+<p><strong>Pro</strong>: You can customize the conda environment freely to meet your development needs.</p>
+
+<p><strong>Special Tips:</strong>: To be able to switch between different conda environments in your Jupyter Notebook, you need to install <code class="language-plaintext highlighter-rouge">nb_conda</code>, <code class="language-plaintext highlighter-rouge">nb_conda_kernels</code> in your conda environment, as descripbed <a href="https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook">here</a>.</p>
+
+<h2 id="3-use-port-forwarding-to-run-a-jupyter-notebook-from-remote-computer-cluster">3. Use <strong>port forwarding</strong> to Run a jupyter notebook from remote computer cluster.</h2>
+<p>Detailed instructions can be found from many online resources, such as <a href="https://fizzylogic.nl/2017/11/06/edit-jupyter-notebooks-over-ssh/">this website</a>.</p>
+
+<p><strong>Con</strong>: Even more complicated set up</p>
+
+<p><strong>Pro</strong>: Some operations needs to be done in this way. For example, you have a very big dataset (millions of entries) on the remote cluster. Running on your own computer may be unrealistic, because</p>
+<ol>
+  <li>Your computer don’t have a large enough disk space to copy over the dataset</li>
+  <li>You computer don’t have enough memory to load the dataset, or loading it without being extremely slow or crash.</li>
+  <li>You would like to submit computing jobs to the queue through Jupyter notebook.</li>
+</ol>
+:ET
