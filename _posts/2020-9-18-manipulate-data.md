@@ -17,9 +17,12 @@ There are numerous resources online to learn machine learning by yourself, and m
 #### Machine learning packages
 [Keras](https://keras.io/), [Tensorflow](https://www.tensorflow.org/), [scikit-learn](https://scikit-learn.org/stable/) are open source python packages for machine learning. There are many tutorials and examples online for these packages making self-learning easier than ever.
 
-### Books and reading materials
+#### Books and reading materials
 * The first material to recommend is the lecture notes of Stanford [**CS 299**](https://see.stanford.edu/Course/CS229). It is concise, modern, and light-weighted compared to classical statistical learning books, and is perfect for beginners.
 
 * If you are more interested understanding machine learning from the perspective of statistics, there are some classical books, such as **The Elements of Statistical Learning** by Trevor Hastie, Robert Tibshirani, and Jerome Friedman. This book is officially released as PDF format and [**free**](https://web.stanford.edu/~hastie/ElemStatLearn/).
 
 * For Chemistry researchers, there is a new book by Jon Paul Janet and Heather Kulik focused on **Machine learning in chemistry**. This book is available from [ACS](https://pubs.acs.org/doi/book/10.1021/acs.infocus.7e4001).
+
+#### Data Analysis
+* Practical machine learning research envolves a lot of data analysis. There is a series of data analysis [tutorials](https://education.molssi.org/python-data-analysis/) offered by the Molecular Science Institute (MolSSI) focused on python and pandas.
