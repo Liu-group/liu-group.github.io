@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is the blog site for the research lab of Dr. Fang Liu at Emory University Department of Chemistry.
+This is the blog site for the research lab of Dr. Fang Liu at Emory University Department of Chemistry. Our lab website: [https://flgroup.emorychem.science](https://flgroup.emorychem.science) 
 
 ### More Information
 

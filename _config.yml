@@ -9,7 +9,7 @@ name: Liu Lab Computational Chemistry Tutorials
 description: Tutorials for new students in computational chemistry
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /images/newlogo2021.jpg
+avatar: /images/logo2021.jpg
 
 #
 # Flags below are optional
@@ -18,12 +18,12 @@ avatar: /images/newlogo2021.jpg
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: fangliu@mit.edu
+  email: fang.liu@emory.edu
   facebook:
   flickr:
-  github: ffangliu/ffangliu.github.io
+  github: Liu-group
   instagram:
-  linkedin: https://www.linkedin.com/in/fang-l-456a3034/
+  linkedin: fang-l-456a3034/
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: fangliu_ustc
@@ -41,7 +41,7 @@ google_analytics: UA-171615300-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://ffangliu.github.io
+url: http://flgroup.emorychem.science
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
