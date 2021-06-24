@@ -10,7 +10,7 @@ title: Tutorial 0. Basics of running molecular simulation
 ### Introduction
 Instead of introducing the theories and models of different types of molecular simulation, we will start with an example to show a typical simulation task.
 
-![Simulation]({{ site.url }}{{ site.baseurl }}/images/tutorial-0/simulation.png)
+![Simulation](/images/tutorial-0/simulation.png)
 
 A researcher get involved in a quantum chemistry calculation task from multiple aspects:
 

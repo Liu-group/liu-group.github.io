@@ -18,8 +18,8 @@ title: Tutorial 1. Python tutorial for quantum chemistry simulation
 ## Example Task:
 Study the potential energy curve of a water molecule at various H-O-H angles while keep the bond length fixed.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/tutorial-01/water-forever.gif" alt="Alt text that describes the graphic" title="A vibrating water" style="width: 200px;" />
-<img src="{{ site.url }}{{ site.baseurl }}/images/tutorial-01/pec.png" alt="Alt text that describes the graphic" title="A vibrating water" style="width: 400px;" />
+<img src="/images/tutorial-01/water-forever.gif" alt="Alt text that describes the graphic" title="A vibrating water" style="width: 200px;" />
+<img src="/images/tutorial-01/PEC.png" alt="Alt text that describes the graphic" title="A vibrating water" style="width: 400px;" />
 
 ## Generate geometries
 
@@ -34,9 +34,9 @@ H 0.672459 0.672459 0.000000
 {% endhighlight %}
 
 
-Put the water molecule on the x-y plane with O at the orgin, it's easy to write down the expression of the coordinates.
+Put the water molecule on the x-y plane with O at the origin, it's easy to write down the expression of the coordinates.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/tutorial-01/water_axis.jpg" alt="Alt text that describes the graphic" title="A vibrating water" style="width: 400px;" />
+<img src="/images/tutorial-01/water_axis.jpg" alt="Alt text that describes the graphic" title="A vibrating water" style="width: 400px;" />
 
 {% highlight plaintext %}
 import numpy as np

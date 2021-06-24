@@ -22,7 +22,7 @@ Therefore, to run a calculation, we need to send the calculations to the **queue
 
 Here we will run a simple calculation with [TeraChem](http://www.petachem.com/products.html): geometry optimization of ethylene.
 
-![ethylene]({{ site.url }}{{ site.baseurl }}/images/tutorial-3/ethylene.gif)
+![ethylene](/images/tutorial-3/ethylene.gif)
 
 The task includes some review of preparing input files and read output files, and the new experience about *submitting jobs*. We will use the Xsede Comet GPU resources, assuming you have obtained an account.
 
