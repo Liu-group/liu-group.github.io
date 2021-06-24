@@ -323,4 +323,4 @@ plt.xlabel('H-O-H angle')
 plt.show()
 {% endhighlight %}
 
-This will generate the potential energy curve shown at the beging of this tutorial.
+This will generate the potential energy curve shown at the beginning of this tutorial.
