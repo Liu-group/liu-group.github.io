@@ -9,7 +9,7 @@ title: Tutorial 4. Jupyter notebook for computational chemistry
 * Learn to run Jupyter Notebook from remote cluster through port forwarding
 
 ### Introduction
-Python is useful for computational chemistry in multiple aspects. In [Tuotorial 1]({{ site.url }}{{ site.baseurl }}/python-basics), we have demonstrated how we can use python to generate input files and analyze output files. Python can also be used for big data analysis, machine learning, and generating publication-quality figures.
+Python is useful for computational chemistry in multiple aspects. In [Tutorial 1](/python-basics), we have demonstrated how we can use python to generate input files and analyze output files. Python can also be used for big data analysis, machine learning, and generating publication-quality figures.
 
 Common ways to run python include:
 

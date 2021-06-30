@@ -25,4 +25,4 @@ There are numerous resources online to learn machine learning by yourself, and m
 * For Chemistry researchers, there is a new book by Jon Paul Janet and Heather Kulik focused on **Machine learning in chemistry**. This book is available from [ACS](https://pubs.acs.org/doi/book/10.1021/acs.infocus.7e4001).
 
 #### Data Analysis
-* Practical machine learning research envolves a lot of data analysis. There is a series of data analysis [tutorials](https://education.molssi.org/python-data-analysis/) offered by the Molecular Science Institute (MolSSI) focused on python and pandas.
+* Practical machine learning research involves a lot of data analysis. There is a series of data analysis [tutorials](https://education.molssi.org/python-data-analysis/) offered by the Molecular Science Institute (MolSSI) focused on python and pandas.
