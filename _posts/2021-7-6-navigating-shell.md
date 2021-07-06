@@ -1,5 +1,7 @@
+---
 layout: post
 title:  Tutorial 6: Navigating the Shell
+---
 
 ## Learning objectives
 
