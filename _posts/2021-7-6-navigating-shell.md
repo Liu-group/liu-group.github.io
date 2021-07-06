@@ -3,7 +3,7 @@ layout: post
 title: Tutorial 6. Navigating the Shell
 ---
 
-## Learning objectives
+### Learning objectives
 
 - Understand what the shell is and become familiar with basic commands used to create, access, and remove files and directories
 - Use additional commands to manipulate files and their relative locations
