@@ -2,6 +2,7 @@
 layout: post
 title: Tutorial 8. Automating tasks in the shell
 ---
+
 ### Learning objectives
 * Utilize bash to run `for` loops and `if` conditions
 * Edit text with sed
