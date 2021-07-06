@@ -1,5 +1,5 @@
-# Tutorial 6: Navigating the Shell
-Created: July 2, 2021 12:40 PM
+layout: post
+title:  Tutorial 6: Navigating the Shell
 
 ## Learning objectives
 
