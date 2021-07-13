@@ -25,4 +25,4 @@ Yes, you can practice running Linux commands on a virtual machine for free!
 
 For example, [webminal](https://www.webminal.org/) is a free Linux online terminal that contains lessons on the usage of Linux commands. You can go to the website, register as a user, then launch the Terminal in your browser, and you are ready to learn Linux! Without any potential harm to your computer!
 
-Here is a video [tutorial]([https://youtu.be/57nPeR8T_gI) about how to use the resources on [webminal](https://www.webminal.org/).
+Here is a video [tutorial](https://youtu.be/57nPeR8T_gI) about how to use the resources on [webminal](https://www.webminal.org/).
