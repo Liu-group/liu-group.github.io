@@ -11,7 +11,7 @@ title: Tutorial 1. Python tutorial for quantum chemistry simulation
 
 ## Prerequisites
 1. [Conda](https://www.anaconda.com/products/individual) installed on your system
-1. create new Conda environment called python_tutorial with the following packages installed:
+1. Create new Conda environment called python_tutorial with the following packages installed:
     jupyter, numpy, matplotlib
 1. [Terachem](http://www.petachem.com/products.html) installed on a GPU cluster using SGE queue manager
 
@@ -50,7 +50,6 @@ def writeHOHxyz(bl, angle_min, angle_max, angle_increment):
         print(xyzname)
         xyz = open(xyzname, "w")
         #TODO (Exercise): Write out the lines in xyz file
-# Write out the lines in xyz file
 writeHOHxyz(0.951, 90, 180, 10)
 {% endhighlight %}
 
