@@ -14,7 +14,7 @@ The shell is a program that takes commands from the keyboard and gives them to t
 
 On most Linux systems a program called **[bash](http://www.linuxcommand.org/lc3_man_pages/bash1.html)** (which stands for Bourne Again SHell, an enhanced version of the original Unix shell program, **sh**, written by Steve Bourne) acts as the shell program. Besides **bash**, there are other shell programs available for Linux systems. These include: **ksh**, **tcsh** and **zsh**.
 
-## Important Command
+## Important Commands
 
 ***pwd***
 
@@ -46,7 +46,7 @@ EXAMPLE
 
 ***cd***
 
-cd stands for “change directory”. Usually, we can implement cd command by “cd NEW_DIRECTORY”. “NEW_DIRECTORY” can be a full directory path, or other notations. For example, simply replacing "NEW_DIRECTORY" with the name of the folder under your current path can change your current directory to the target folder. Typing “../” can make directory go backward to the previous directory. Typing “~” can make directory go to the default home directory. Typing “/” can make directory go to the root directory. Also, typing “-” can make directory go to the previous directory.
+cd stands for “change directory”. Usually, we can implement cd command by `cd NEW_DIRECTORY`. “NEW_DIRECTORY” can be a full directory path, or other notations. For example, simply replacing "NEW_DIRECTORY" with the name of the folder under your current path can change your current directory to the target folder. Typing “../” can make directory go backward to the previous directory. Typing “~” can make directory go to the default home directory. Typing “/” can make directory go to the root directory. Also, typing “-” can make directory go to the previous directory.
 
 ```bash
 $ pwd
@@ -73,19 +73,19 @@ $ pwd
 
 ***rm***
 
-rm or “remove” is a command that can be used to both remove files and directories. For example, to remove a file in your current working directory, execute “rm filename”. To remove a directory and all files within said directory, use “rm -r directoryname” to recursively remove every file inside and the directory itself.
+rm or “remove” is a command that can be used to both remove files and directories. For example, to remove a file in your current working directory, execute `rm filename`. To remove a directory and all files within said directory, use `rm -r directoryname` to recursively remove every file inside and the directory itself.
 
 ***cp***
 
-cp or “copy” is a command that can be used to copy files or folders from one location to another. For example, to copy a single file from your current working directory to the target directory, execute “cp filename targetdirectory”. To copy a directory from one location to another, use “cp -r sourcedirectory targetdirectory”, to recursively copy the directory and all files within it.
+cp or “copy” is a command that can be used to copy files or folders from one location to another. For example, to copy a single file from your current working directory to the target directory, execute `cp filename targetdirectory`. To copy a directory from one location to another, use `cp -r sourcedirectory targetdirectory`, to recursively copy the directory and all files within it.
 
 ***mv***
 
-mv or “move” is a command that can move files or folders from one location to another and rename files. Like cp, to move files or folders, execute “mv filenameOrDirectory targetdirectory”. Remember to use the recursive flag if moving the entire folder. To rename a file or directory, execute “mv filename newfilename” or “mv directoryname newdirectoryname”.
+mv or “move” is a command that can move files or folders from one location to another and rename files. Like cp, to move files or folders, execute `mv filenameOrDirectory targetdirectory`. Remember to use the recursive flag if moving the entire folder. To rename a file or directory, execute `mv filename newfilename` or `mv directoryname newdirectoryname`.
 
 ***grep***
 
-grep or “global regular expression print” is a command that searches files for strings. To search a string, execute “grep searchstring filename”. This command will return *filename: line with searchstring.* To search for a string with more than one word, just add quotes around the string: “*I am looking for this* *search string”*  **There are many useful options for the grep command that will change its output:
+grep or “global regular expression print” is a command that searches files for strings. To search a string, execute `grep searchstring filename`. This command will return *filename: line with searchstring.* To search for a string with more than one word, just add quotes around the string: “*I am looking for this* *search string”*  **There are many useful options for the grep command that will change its output:
 
 -r  recursive, will search for the string in subdirectories
 
