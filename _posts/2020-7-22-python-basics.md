@@ -49,7 +49,7 @@ def writeHOHxyz(bl, angle_min, angle_max, angle_increment):
         xyzname = "HOH-bl-" + str(bl) + "-deg-" + str(deg).zfill(3) + ".xyz"
         print(xyzname)
         xyz = open(xyzname, "w")
-        
+        #TODO (Exercise): Write out the lines in xyz file
 # Write out the lines in xyz file
 writeHOHxyz(0.951, 90, 180, 10)
 {% endhighlight %}
@@ -183,7 +183,7 @@ for xyz in glob.glob("*.xyz"):
         os.path.join(xyz_path, xyz), os.path.join(submission_path, xyz))
 
     tcin = open('energy.in', 'w')
-    #TODO identify the missing keyword and fill it in here
+    #TODO (Exercise): identify the missing keyword and fill it in here
     tcin.write('charge          0\n')
     tcin.write('spinmult        1\n')
     tcin.write('basis           6-31g*\n')
@@ -196,7 +196,7 @@ for xyz in glob.glob("*.xyz"):
 
     jobscript = open('jobscript', 'w')
     jobscript.write('#$ -S /bin/bash\n')
-    #TODO: fill in a line that specify the jobname
+    #TODO (Exercise): fill in a line that specify the jobname
     jobscript.write('#$ -l h_rt=00:05:00\n')
     jobscript.write('#$ -l gpus=1\n')
     jobscript.write('#$ -cwd\n')
@@ -297,7 +297,7 @@ for dir in subdirs:
     energy = "NA"
     if os.path.exists(output):
         data = open(output).readlines()
-        #TODO loop through the lines in output and look for the calculated SCF energy
+        #TODO (Exercise): loop through the lines in output and look for the calculated SCF energy
         for line in data:
 
 
