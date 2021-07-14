@@ -26,7 +26,7 @@ For the first two options, please refer to [this tutorial](https://realpython.co
 
 Here we will demonstrate a few different ways to run Jupyter Notebook.
 
-## 1. Use Readily available online service.
+## 1. Use readily available online service.
 For example, from the XSEDE computational chemistry website: [https://chemcompute.org/jupyterhub](https://chemcompute.org/jupyterhub). There are many good examples of using Jupyter Notebooks for computational chemistry on that website. Please check them out.
 
 **Pro**: No need to set up your own computer environment. Good for beginners.
@@ -34,20 +34,20 @@ For example, from the XSEDE computational chemistry website: [https://chemcomput
 **Con**: Need to upload your files. May not be convenient enough for daily code development.
 
 ## 2. Set up your own computer to run Jupyter Notebook.
-Please follow the guidance of this [website](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
+Please follow the guidance of this [website](https://www.dataquest.io/blog/jupyter-notebook-tutorial/).
 
-**Con**: More complicated set up
+**Con**: More complicated setup
 
 **Pro**: You can customize the conda environment freely to meet your development needs.
 
-**Special Tips:**: To be able to switch between different conda environments in your Jupyter Notebook, you need to install `nb_conda`, `nb_conda_kernels` in your conda environment, as descripbed [here](https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook).
+**Special Tips:** To be able to switch between different conda environments in your Jupyter Notebook, you need to install `nb_conda`, `nb_conda_kernels` in your conda environment, as described [here](https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook).
 
-## 3. Use **port forwarding** to Run a jupyter notebook from remote computer cluster.
+## 3. Use **port forwarding** to run a Jupyter Notebook from remote computer cluster.
 Detailed instructions can be found from many online resources, such as [this website](https://fizzylogic.nl/2017/11/06/edit-jupyter-notebooks-over-ssh/).
 
-**Con**: Even more complicated set up
+**Con**: Even more complicated setup
 
-**Pro**: Some operations needs to be done in this way. For example, you have a very big dataset (millions of entries) on the remote cluster. Running on your own computer may be unrealistic, because
-1. Your computer don't have a large enough disk space to copy over the dataset
-2. You computer don't have enough memory to load the dataset, or loading it without being extremely slow or crash.
-3. You would like to submit computing jobs to the queue through Jupyter notebook.
+**Pro**: Some operations need to be done in this way. For example, if you have a very big dataset (millions of entries) on the remote cluster. Running on your own computer may be unrealistic, because
+1. Your computer doesn't have a large enough disk space to copy over the dataset
+2. You computer doesn't have enough memory to load the dataset, or is unable to load it without being extremely slow or crashing.
+3. You would like to submit computing jobs directly to the queue through Jupyter Notebook.

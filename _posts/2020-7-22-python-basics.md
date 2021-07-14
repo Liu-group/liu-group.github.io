@@ -3,16 +3,17 @@ layout: post
 title: Tutorial 1. Python tutorial for quantum chemistry simulation
 ---
 ### Learning objectives
-* Learn basic python scripting to run quantum chemistry simulation from scratch
+* Learn basic python scripting to run a quantum chemistry simulation from scratch
 * Topics:
     1. Geometry generation
     1. Input file generation
     1. Output file processing
 
 ## Prerequisites
-1. conda installed on your system
-1. create new channel called python_tutorial with the following packages installed:
+1. [Conda](https://www.anaconda.com/products/individual) installed on your system
+1. Create new Conda environment called python_tutorial with the following packages installed:
     jupyter, numpy, matplotlib
+1. [Terachem](http://www.petachem.com/products.html) installed on a GPU cluster using SGE queue manager
 
 
 ## Example Task:
@@ -23,7 +24,7 @@ Study the potential energy curve of a water molecule at various H-O-H angles whi
 
 ## Generate geometries
 
-xyz file has the following general format
+An **.xyz** file has the following general format
 
 {% highlight plaintext %}
 3
@@ -48,8 +49,7 @@ def writeHOHxyz(bl, angle_min, angle_max, angle_increment):
         xyzname = "HOH-bl-" + str(bl) + "-deg-" + str(deg).zfill(3) + ".xyz"
         print(xyzname)
         xyz = open(xyzname, "w")
-#TODO Write out the lines in xyz file
-
+        #TODO (Exercise): Write out the lines in xyz file
 writeHOHxyz(0.951, 90, 180, 10)
 {% endhighlight %}
 
@@ -72,7 +72,7 @@ end
 {% endhighlight %}
 
 
-A basic jobscript for SGE queueing system looks like the following:
+A basic jobscript for the [SGE](https://en.wikipedia.org/wiki/Oracle_Grid_Engine) queueing system looks like the following:
 
 {% highlight plaintext %}
 #$ -S /bin/bash
@@ -95,7 +95,7 @@ Now let us write a python script that can generate the input file for all the ge
 - Create a separate folder for each geometry
 - Inside the folder, put in all the needed files: geometry, input deck, and jobscript
 - (On the cluster) Job generation and job submission all at once
-Basically, the script will create the following tree for us:
+<br>Basically, the script will create the following tree for us:
 
 {% highlight plaintext %}
 .
@@ -154,15 +154,13 @@ Basically, the script will create the following tree for us:
 {% endhighlight %}
 
 
-First in your terminal, created a new directory. Go to that directory and create a folder called "xyzfiles", copy all your generated xyz files into that folder. Run "pwd" and remember the copy the directory. Then let's move to that directory in our Jupyter notebook.
+First in your terminal, create a new directory. Go to that directory and create a folder called "xyzfiles", and copy all your generated xyz files into that folder. Run "pwd" and remember the path that is displayed. Then let's move to that directory in our Jupyter notebook.
 
 {% highlight plaintext %}
 import os
 my_starting_path=os.path.abspath('.')
 print(my_starting_path)
 
-
-import os
 import shutil
 import glob
 
@@ -184,7 +182,7 @@ for xyz in glob.glob("*.xyz"):
         os.path.join(xyz_path, xyz), os.path.join(submission_path, xyz))
 
     tcin = open('energy.in', 'w')
-    #TODO identify the missing keyword and fill it in here
+    #TODO (Exercise): identify the missing keyword and fill it in here
     tcin.write('charge          0\n')
     tcin.write('spinmult        1\n')
     tcin.write('basis           6-31g*\n')
@@ -197,7 +195,7 @@ for xyz in glob.glob("*.xyz"):
 
     jobscript = open('jobscript', 'w')
     jobscript.write('#$ -S /bin/bash\n')
-    #TODO: fill in a line that specify the jobname
+    #TODO (Exercise): fill in a line that specify the jobname
     jobscript.write('#$ -l h_rt=00:05:00\n')
     jobscript.write('#$ -l gpus=1\n')
     jobscript.write('#$ -cwd\n')
@@ -221,8 +219,7 @@ subprocess.call('tree')
 {% endhighlight %}
 
 
-And check what you have
-Sligth modification of your script can enable batch job submission too!
+And check what you have. Slight modification of your script can enable batch job submission too!
 
 {% highlight plaintext %}
 import os
@@ -299,7 +296,7 @@ for dir in subdirs:
     energy = "NA"
     if os.path.exists(output):
         data = open(output).readlines()
-        #TODO loop through the lines in output and look for the calculated SCF energy
+        #TODO (Exercise): loop through the lines in output and look for the calculated SCF energy
         for line in data:
 
 
@@ -313,7 +310,7 @@ for key in sorted(Energy):
 
 
 ## Plot results
-Here we plot with matplotlib, but there are many tools for creating scientific fgiures. We will cover that topic in future tutotirals.
+Here we plot with matplotlib, but there are many tools for creating scientific figures. We will cover that topic in future tutorials.
 
 {% highlight plaintext %}
 import matplotlib.pyplot as plt
