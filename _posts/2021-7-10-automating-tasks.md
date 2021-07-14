@@ -9,10 +9,10 @@ title: Tutorial 8. Automating tasks in the shell
 
 
 ## Introduction
-Bash can automate simple tasks in the command line, some of the most commonly used tools here are: **for** loops, **if** statements, and text editing with **sed** commands.
+Bash can automate simple tasks in the command line; some of the most commonly used tools here are: **for** loops, **if** statements, and text editing with **sed** commands.
 
 ## Try and Learn
-Iterating a task in bash can be done with a bash **for** loop. The variable `i` loops through the specified range, here from 1 to 10. Bash commands between the `do` and `done` can utilize the variable i. For illustration we print here the value of the variable i with the command `echo`:
+Iterating a task in bash can be done with a bash **for** loop. The variable `i` loops through the specified range, here from 1 to 10. Bash commands between the `do` and `done` use a counter variable (in this case, `i`). For illustration we print here the value of the variable `i` with the command `echo`:
 {% highlight plaintext %}
 for i in {1..10}
 do
