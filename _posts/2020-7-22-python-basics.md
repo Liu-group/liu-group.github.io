@@ -91,7 +91,7 @@ terachem energy.in > energy.out
 {% endhighlight %}
 
 
-Now let us write a Python script that can generate the input file for all the geometries we generated in one batch:
+Now let us write a python script that can generate the input file for all the geometries we generated in one batch:
 - Create a separate folder for each geometry
 - Inside the folder, put in all the needed files: geometry, input deck, and jobscript
 - (On the cluster) Job generation and job submission all at once
