@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tutorial 7. Text Editing in the Shell
+title: Tutorial 9. Text Editing in the Shell
 ---
 
 ### Learning objectives
