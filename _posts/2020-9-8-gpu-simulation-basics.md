@@ -4,11 +4,11 @@ title: Tutorial 3. Basics of running TeraChem
 ---
 
 ### Learning objectives
-* Run a simple GPU based quantum chemistry calculation
-* Get familiar with running calculation on computer clusters
+* Run a simple GPU-based quantum chemistry calculation
+* Get familiar with running calculations on computer clusters
 
 ### Introduction
-In previous tutorial we have tried running quantum chemistry calculation with CPU based program installed on your own computer. Here we will use TeraChem, the GPU based quantum chemistry package. The software is installed on the super computers with suitable GPU hardware, so we need to remote log in the super computers and run calculations there, as shown in the figure cited below:
+In the [previous tutorial](/simulation-basics/) we have tried running a quantum chemistry calculation with a CPU-based program installed on your own computer. Here we will use TeraChem, the GPU-based quantum chemistry package. The software is installed on certain super computers with suitable GPU hardware, so we need to remote log in the super computers and run calculations there, as shown in the figure cited below:
 
 
 <a href="https://upload.wikimedia.org/wikipedia/commons/4/40/Beowulf.png"><img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Beowulf.png" alt="Schematic of typical architecture of a computer cluster."/></a>
@@ -39,11 +39,13 @@ This can be most easily done by drawing or inserting fragments in [Avogadro](htt
 This can be done in a few different ways.
 * [Avogadro](https://avogadro.cc/)  has an input file generation functionality
 * Check [TeraChem UserGuide](http://www.petachem.com/doc/userguide.pdf) and follow the instructions there.
+* Modify the files created in [Tutorial 1](/python-basics/)
 * Ask your colleagues for example input file and modify from there
 
 (3) Prepare a jobscript.
 This can be done in a few different ways.
 * Check out the [documentation]( https://portal.xsede.org/sdsc-comet#access:login) of the computer cluster
+* Modify the files created in [Tutorial 1](/python-basics/)
 * Ask your colleagues for example jobscript
 
 (4) Read through the output files of your calculation and look for the optimized structure. Find the optimal bond lengths, angles, and dihedrals.

@@ -11,13 +11,13 @@ title: Tutorial 2. Visualize molecular structures
     1. Visualize a trajectory (a moving molecule).
 
 ## Prerequisites
-1. Install the free molecule visualizers [Avogadro](https://avogadro.cc/) , [VMD](https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD)
+1. Install the free molecule visualizers [Avogadro](https://avogadro.cc/), [VMD](https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD)
 
 
 ## Visualize a static structure
-In [Tuotorial 0](/simulation-basics/#initxyz), we generated the initial structure for geometry optimization for water molecule in xyz format (the file is [here](/simulation-basics/#initxyz)). How do we visualize the molecule?
+In [Tutorial 0](/simulation-basics/#initxyz), we generated the initial structure for geometry optimization for water molecule in xyz format (the file is [here](/simulation-basics/#initxyz)). How do we visualize the molecule?
 
-For beginners of molecular simulation, we highly recommend using [Avogadro](https://avogadro.cc/) for visualizing static structures because of the simple interface and intuitive manipulation of the molecules. Specifically, you are encouraged to explore the following features of [Avogadro](https://avogadro.cc/)
+For beginners of molecular simulation, we highly recommend using [Avogadro](https://avogadro.cc/) for visualizing static structures because of the simple interface and intuitive manipulation of the molecules. Specifically, you are encouraged to explore the following features of [Avogadro](https://avogadro.cc/):
 
 * Measure bond lengths, angles, and dihedrals (for molecules with more atoms)
 
@@ -28,7 +28,7 @@ For beginners of molecular simulation, we highly recommend using [Avogadro](http
 * Drag the molecule to change its structure (bond lengths, angles, dihedrals)
 
 **Exercise:**
-* Substitute elements (change H$_2$O to SH$_2$)
+* Substitute elements (change H<sub>2</sub>O to SH<sub>2</sub>)
 * Drag the water molecule to have both bonds at 1.0 Angstrom
 * Generate the xyz file for a toluene molecule
 
@@ -37,7 +37,7 @@ In [Tutorial 1](/python-basics/), we have a gif figure showing a water doing sci
 
 <img src="/images/tutorial-01/water-forever.gif" alt="Alt text that describes the graphic" title="A vibrating water" style="width: 200px;" />
 
-In [Tutorial 1](/python-basics/), you have already generated the water structures with different H-O-H angles, then the figure with vibrating water molecule can be generated from [VMD](https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD)
+In [Tutorial 1](/python-basics/), you have already generated the water structures with different H-O-H angles, then the figure with the vibrating water molecule can be generated from [VMD](https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD)
 
 First get the water xyz files ready. No worries if you have not done [Tutorial 1](/python-basics/). You can download the xyz files [here](/images/tutorial-2/xyzfiles.zip). Unzip the file.
 
@@ -50,20 +50,22 @@ vmd *.xyz
 Then you will see the screen with a line that does not look like water at all.
 ![startVMD](/images/tutorial-2/startvmd.png)
 
-The red straight line with white ends is actually the water molecule at 180 degree. We can change the representation to make it look nicer.
+The red straight line with white ends is actually the water molecule viewed from 180 degrees. We can change the representation to make it look nicer.
 
 First in the small control window (shown below), select the graphics menu and representations.
+
 ![startVMD](/images/tutorial-2/graphics.png)
 
-Click and you will see a new window like below
+Click and you will see a new window like below:
 
 ![startVMD](/images/tutorial-2/representation.png)
 
-Change the drawing method from *line* to *CPK*, then the structure will look like the following
+Change the drawing method from *line* to *CPK*, then the structure will look like the following:
+
 ![startVMD](/images/tutorial-2/CPK.png)
 
-Now it looks like molecules. Click the play button on the control window to play the movie and watch the molecule move!
+Now it looks like a molecule. Click the play button on the control window to play the movie and watch the molecule move!
 
 ![startVMD](/images/tutorial-2/play_movie.png)
 
-**Exercise:** Can you save the movie into a gif graph or a movie file? Search for VMD manual for the answer.
+**Exercise:** Can you save the movie into a gif graph or a movie file? Search the VMD manual for the answer.
