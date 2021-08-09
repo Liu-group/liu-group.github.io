@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tutorial 9. Text Editing in the Shell
+title: Tutorial 9. Text Editing in the Linux environment
 ---
 
 ### Learning objectives
@@ -63,4 +63,4 @@ Launch the terminal. In the command line try to execute the following tasks with
 6. Rename “folder1” to “example”
 7. Within “example”, search for every instance of “world” in “doc”
 
-Congratulations! You have mastered navigating the shell.
+Congratulations! You have mastered text editing with Vim.
