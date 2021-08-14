@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Tutorial 8. Automating tasks in the shell
 ---
 

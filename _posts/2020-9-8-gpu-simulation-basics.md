@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Tutorial 3. Basics of running TeraChem
 ---
 

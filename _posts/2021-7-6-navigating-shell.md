@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Tutorial 6. Navigating the Shell
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Tutorial 9. Text Editing in the Linux environment
 ---
 

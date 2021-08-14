@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Tutorial 5. Online Resources to Learn Machine Learning
 ---
 

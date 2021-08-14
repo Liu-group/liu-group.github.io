@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Tutorial 2. Visualize molecular structures
 ---
 

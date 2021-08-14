@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Tutorial 4. Jupyter notebook for computational chemistry
 ---
 

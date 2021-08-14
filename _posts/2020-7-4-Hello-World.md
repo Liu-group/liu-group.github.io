@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Welcome to the Liu Lab tutorials!
 ---
 

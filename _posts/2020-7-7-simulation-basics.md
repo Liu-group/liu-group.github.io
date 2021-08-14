@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Tutorial 0. Basics of running molecular simulation
 ---
 

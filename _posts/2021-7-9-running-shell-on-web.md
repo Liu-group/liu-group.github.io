@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Tutorial 7. Learn Linux commands without a Linux computer
 ---
 

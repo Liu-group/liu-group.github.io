@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Tutorial 1. Python tutorial for quantum chemistry simulation
 ---
 ### Learning objectives
