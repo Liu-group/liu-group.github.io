@@ -25,7 +25,7 @@ I will share some of my opinions about learning multiple programming languages.
 <span style="color:red">**Disclaimer**</span> some of the following contents are personal opinions and may not fit your learning needs.
 
 ### Which programming language should I learn first?
-This may be a common question asked by beginners. I would answer this from two aspects.
+This may be a common question asked by beginners. I'd like to answer it from 3 aspects.
 
 1. Many times, it's not like we intentionally choose which language to start with, but we encounter our first programming language and need to use it. Some of us may have a required programming course to take, and the language used in that course automatically becomes our first language. My first language is C, which may seem very odd because nowadays, most colleges are teaching introductory level programming courses with Python or [Java](https://go.java/?intcmp=gojava-banner-java-com). However, C is a required course in my undergraduate curriculum. The first language may also be the language needed for your first research project.
 
