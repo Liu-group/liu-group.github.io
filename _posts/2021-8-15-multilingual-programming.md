@@ -16,9 +16,9 @@ Computational chemists often get the feeling that they need to work with multipl
 
 * To use machine learning packages, you feel you need [Python](https://docs.python.org/3.7/).
 * To develop new functionality in a quantum chemistry code, you find that you need to read and modify the historical code written in the 70s, which are unfortunately, [Fortan77](https://web.stanford.edu/class/me200c/tutorial_77/).
-* To implement fancy parallel algorithm GPUs, you want to embrace [CUDA](https://developer.nvidia.com/cuda-toolkit), and inevitably, you also need [C++](https://www.cplusplus.com/).
+* To implement fancy parallel algorithm on GPUs, you want to embrace [CUDA](https://developer.nvidia.com/cuda-toolkit), and inevitably, you also need [C++](https://www.cplusplus.com/).
 * To implement an advanced graphical interface for your package, you may feel that [Tcl/Tk](https://www.tcl.tk/) is needed.
-* To and make your computational database available to the public, you find it necessary to learn some language related to building a website.
+* To make your computational database available to the public, you find it necessary to learn some language related to building a website.
 
 I will share some of my opinions about learning multiple programming languages.
 
