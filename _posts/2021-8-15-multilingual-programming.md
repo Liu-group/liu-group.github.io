@@ -17,7 +17,7 @@ Computational chemists often get the feeling that they need to work with multipl
 * To use machine learning packages, you feel you need [Python](https://docs.python.org/3.7/).
 * To develop new functionality in a quantum chemistry code, you find that you need to read and modify the historical code written in the 70s, which are unfortunately, [Fortan77](https://web.stanford.edu/class/me200c/tutorial_77/).
 * To implement fancy parallel algorithm on GPUs, you want to embrace [CUDA](https://developer.nvidia.com/cuda-toolkit), and inevitably, you also need [C++](https://www.cplusplus.com/).
-* To implement an advanced graphical interface for your package, you may feel that [Tcl/Tk](https://www.tcl.tk/) is needed.
+* To implement an advanced graphical interface for your package, you may feel that [JavaScript](https://en.wikipedia.org/wiki/JavaScript) or [Qt](https://www.qt.io/) ( or [Tcl/Tk](https://www.tcl.tk/), maybe too old) is needed.
 * To make your computational database available to the public, you find it necessary to learn some language related to building a website.
 
 I will share some of my opinions about learning multiple programming languages.
@@ -51,7 +51,7 @@ I can share a few tips.
 
 1. **C to C++.** I can share my personal experience. My first programming language is C, and later learned C++ from [CS 106B Programming Abstractions](https://see.stanford.edu/Course/CS106B). For me, the most valuable part about learning C++ is to learn the Object Oriented Programming idea, which is thoroughly discussed in CS106B.
 
-1. **C to Python.** I guess this rarely happens nowadays since most colleges offer high-level languages in the intro-level programming course. If you have a similar experience as me (learning C before learning Python), then here is my experience. The biggest difference is that I can code in C without the Internet, but I cannot code in Python without the Internet. I need to search the [Python online documentation](https://docs.python.org/3.7/) about the usage of different packages all the time. Unlike C, where almost everything needs to be code from scratch, Python has so many packages we can use, which is both good and bad (for me). Good that to achieve the same goal, I can write shorter programs in Python. Bad that I cannot memorize the usage of any function anymore, and I look up the online documentation all the time. That is also how I learned Python: as a C/C++ programmer, I have never taken any formal training on Python, but I learn it while I code by checking the online documentation and examples.
+1. **C to Python.** I guess this rarely happens nowadays since most colleges offer high-level languages in the intro-level programming course. If you have a similar experience as me (learning C before learning Python), then here is my experience. The biggest difference I find is that I can code in C without the Internet, but I cannot code in Python without the Internet. I need to search the [Python online documentation](https://docs.python.org/3.7/) about the usage of different packages all the time. That is also how I learned Python: as a C/C++ programmer, I have never taken any formal training on Python, but I learn it while I code by checking the online documentation and examples.
 
 1. **C/C++ to CUDA.** I will talk about that in another tutorial.
 
