@@ -38,7 +38,7 @@ Instruction:
 * Once you see the buttons to "run" at the bottom left corner of the code block, click "run" to run the code. Please be patient. Starting the kernel can be slow sometimes.
 * You will see a plot with the radiation curves.
 * Play with the control bar to change the temperature.
-* You can modify the code and plot $\rho(T)$ as a function of the wavelength of the light.
+* You can modify the code and plot $\rho$ as a function of the wavelength of the light.
 
 *Note*: The code block uses `Numpy`, `matplotlib`, and `Ipywidgets` packages. I didn't include Scipy because it slowed down the initilization of the executable code blocks based on my tests. Therefore, the physical constants are manually defined, instead of directly using `scipy.constants`.
 
@@ -95,7 +95,7 @@ def update(T = 298):
     plt.plot(nu, rho_classical(nu, T), label='classical')
     plt.plot(nu, rho_planck(nu, T), label='Planck')
     # Add a title
-    plt.title(r'$\rho(T)$ at $T$ = ' + str(T) + ' K')
+    plt.title(r'$\rho(\nu;T)$ at $T$ = ' + str(T) + ' K')
     # Add X and y Label
     plt.xlabel(r'$\nu$ (Hz)')
     plt.ylabel(r'$\rho(\nu)$ (J$\times$m$^{-3}$)')
