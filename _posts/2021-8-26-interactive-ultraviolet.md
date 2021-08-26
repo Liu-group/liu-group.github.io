@@ -35,12 +35,12 @@ Run the following code to compare and contrast the energy density of blackbody r
 
 Instruction:
 * First click "Activate" to activate the code block
-* Once you see the buttons to "run" at the left bottom corner of the code block, click "run" to run the code.
-* Play with the control bar to change the temperature
+* Once you see the buttons to "run" at the bottom left corner of the code block, click "run" to run the code. Please be patient. Starting the kernel can be slow some times.
+* You will see a plot with the radiation curves.
+* Play with the control bar to change the temperature.
 * You can modify the code and plot $\rho(T)$ as a function of the wavelength of the light.
 
 *Note*: The code block uses `Numpy`, `matplotlib`, and `Ipywidgets` packages. I didn't include Scipy because it slowed down the initilization of the executable code blocks based on my tests. Therefore, the physical constants are manually defined, instead of directly using `scipy.constants`.
-
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
