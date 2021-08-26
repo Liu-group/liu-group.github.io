@@ -35,7 +35,7 @@ Run the following code to compare and contrast the energy density of blackbody r
 
 Instruction:
 * First click "Activate" to activate the code block
-* Once you see the buttons to "run" at the bottom left corner of the code block, click "run" to run the code. Please be patient. Starting the kernel can be slow some times.
+* Once you see the buttons to "run" at the bottom left corner of the code block, click "run" to run the code. Please be patient. Starting the kernel can be slow sometimes.
 * You will see a plot with the radiation curves.
 * Play with the control bar to change the temperature.
 * You can modify the code and plot $\rho(T)$ as a function of the wavelength of the light.
