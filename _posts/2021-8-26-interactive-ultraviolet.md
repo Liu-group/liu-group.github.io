@@ -40,7 +40,7 @@ Instruction:
 * Play with the control bar to change the temperature.
 * You can modify the code and plot $\rho$ as a function of the wavelength of the light.
 
-*Note*: The code block uses `Numpy`, `matplotlib`, and `Ipywidgets` packages. I didn't include Scipy because it slowed down the initilization of the executable code blocks based on my tests. Therefore, the physical constants are manually defined, instead of directly using `scipy.constants`.
+*Note*: The code block uses `Numpy`, `matplotlib`, and `Ipywidgets` packages. I didn't include Scipy because it slowed down the initialization of the executable code blocks based on my tests. Therefore, the physical constants are manually defined, instead of directly using `scipy.constants`.
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
