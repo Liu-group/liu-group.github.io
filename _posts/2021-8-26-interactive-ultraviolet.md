@@ -26,7 +26,7 @@ $$ E=nh\nu $$
 
 where $n = 0, 1, 2$ is a non-negative integer and $h$ is Planck’s constant. Then the blackbody radiation has the following formula
 
-$$\rho(\nu;T)_{\textrm{Planck}}=\frac{8\pi h}{c^3}\frac{\nu^3 d\nu}{e^{h\nu/k_B T}}$$
+$$\rho(\nu;T)_{\textrm{Planck}}=\frac{8\pi h}{c^3}\frac{\nu^3 d\nu}{e^{h\nu/k_B T}-1}$$
 
 
 ## Try and learn
