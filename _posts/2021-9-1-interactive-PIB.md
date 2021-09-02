@@ -79,7 +79,7 @@ import matplotlib.pyplot as plt
 def psi(x,n,L):
     return np.sqrt(2/L)*np.sin(n*np.pi*x/L)
 
-# Box length can be any float value between 0.1 and 10 inputed by the user
+# Box length can be any float value between 0.1 and 100 inputed by the user
 L_button = widgets.BoundedFloatText(
     description=r'$L$:',                             
     value=1.0,
@@ -87,7 +87,7 @@ L_button = widgets.BoundedFloatText(
     max=100.0,
     padding = 8)
 
-# Quantum number can be any integer between 1 and 10
+# Quantum number can be any integer between 1 and 100
 n_options = widgets.IntSlider(
     value=1,
     min=1,
