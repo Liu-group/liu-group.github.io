@@ -134,11 +134,12 @@ def update(n,L):
     plt.grid(True)
 
     ########################
-    # Then  work on psi**2  #
+    # Then  work on |psi|**2  #
     ########################
     
     plt.sca(ax2)
-    plt.plot(x,psi(x,n,L)**2)
+    plt.plot(x,psi(x,n,L)**2,c='r')
+    plt.fill_between(x,psi(x,n,L)**2, color='r',alpha=0.5)
     # Add X and y Label
     plt.xlabel(r'$x$ (bohr)')
     plt.ylabel(r'$|\psi|^2$')
