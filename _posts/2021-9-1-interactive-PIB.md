@@ -39,7 +39,7 @@ Instruction:
 * First, click "Activate" to activate the code block.
 * Once you see the buttons to "run" at the bottom left corner of the code block, click "run" to run the code.
 * Please be patient. Starting the kernel can be slow sometimes.
-* You will see a plot with two panels. Upper is $\psi$; lower is $\psi^2$.
+* You will see a plot with two panels. Upper is $\psi$; lower is $|\psi|^2$.
 * Play with the slider to select the quantum number you want. $n$ can be any positive integer. In this demo, we allow $n$ up to 100.
 * Enter the wanted box length (in atomic unit bohr) in the text box. In this demo, we allow $L$ to be any float number between 0.1 and 100 just for demonstration purposes. Theoretically, $L$ can be any positive number.
 
@@ -97,7 +97,7 @@ n_options = widgets.IntSlider(
     disabled=False,
 )
 
-# Plot psi and psi**2 in two subplots
+# Plot psi and |psi|**2 in two subplots
 fig,(ax1,ax2) = plt.subplots(2, sharex=True)
 plt.subplots_adjust(hspace=0)
 
@@ -141,7 +141,7 @@ def update(n,L):
     plt.plot(x,psi(x,n,L)**2)
     # Add X and y Label
     plt.xlabel(r'$x$ (bohr)')
-    plt.ylabel(r'$\psi^2$')
+    plt.ylabel(r'$|\psi|^2$')
 
     # Draw the walls of the box
     ymin = -2/L
