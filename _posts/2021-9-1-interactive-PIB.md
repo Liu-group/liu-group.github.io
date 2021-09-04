@@ -9,16 +9,16 @@ title: Tutorial 12. Interactive -- Particle in a box in 1D
 * Observe the change of the wave function with different box lengths and quantum numbers.
 
 ## Background
-1D particle in a box problem is almost always the first model system discussed in quantum chemistry courses. We want to solve the time-independent Schr$\"{o}$dinger equation 
+1D particle in a box problem is almost always the first model system discussed in quantum chemistry courses. We want to solve the time-independent Schrödinger equation 
 
 $$\hat{H}\psi = E\psi$$
 
-for a 1-D particle. The particle moves in 1D, with a potential that models the walls of a box must not allow the particle to get out of the range $0\le x\le L$. 
+for a 1-D particle. The particle moves in 1D, with a potential that models the walls of a box must not allow the particle to get out of the range $0\le x\le L$.
 
 $$V(x) =
 \begin{cases}
 \infty & x<0 \textrm{ or } x>L\\
-0 & 0 \le x \le L 
+0 & 0 \le x \le L
 \end{cases}
 $$
 
@@ -27,7 +27,7 @@ The solution of 1D particle in a box:
 $$\psi(x)=
 \begin{cases}
 0 & x<0 \textrm{ or } x>L\\
-\psi_n(x) = \sqrt{2/L}\textrm{sin}(\frac{n\pi x}{L}), \ \ n=1,2,3\dots & 0 \le x \le L 
+\psi_n(x) = \sqrt{2/L}\textrm{sin}(\frac{n\pi x}{L}), \ \ n=1,2,3\dots & 0 \le x \le L
 \end{cases}
 $$
 
@@ -74,7 +74,7 @@ document.querySelector("#activateButton").addEventListener('click', bootstrapThe
 %matplotlib widget
 import ipywidgets as widgets
 import numpy as np
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
 
 def psi(x,n,L):
     return np.sqrt(2/L)*np.sin(n*np.pi*x/L)
@@ -105,20 +105,20 @@ plt.subplots_adjust(hspace=0)
 def update(n,L):
     ax1.cla()
     ax2.cla()
-    
+
     x = np.linspace(0,L, num=1000)
-    
+
     ###################
     # First work on psi
     ####################
-    
+
     plt.sca(ax1)
     plt.plot(x,psi(x,n,L))
     # Add a title
     plt.title('Particle in a 1D box\n' + r'$L$='+str(L) + ' bohr, $n$=' + str(n))
     # Add y Label
     plt.ylabel(r'$\psi$')
-    
+
     # Draw the walls of the box
     ymin = -np.sqrt(2/L)
     ymax = np.sqrt(2/L)
@@ -129,14 +129,14 @@ def update(n,L):
     plt.plot([0,0],[ylo,yup],'gray', linewidth=5)
     #Right wall
     plt.plot([L,L],[ylo, yup],'gray',linewidth=5)
-    
+
     # Set grid
     plt.grid(True)
 
     ########################
     # Then  work on |psi|**2  #
     ########################
-    
+
     plt.sca(ax2)
     plt.plot(x,psi(x,n,L)**2,c='r')
     plt.fill_between(x,psi(x,n,L)**2, color='r',alpha=0.5)
@@ -154,7 +154,7 @@ def update(n,L):
     plt.plot([0,0],[ylo,yup],'gray', linewidth=5)
     #Right wall
     plt.plot([L,L],[ylo, yup],'gray',linewidth=5)
-    
+
     # Set the x and y ranges to display
     plt.ylim(ylo,yup)
     plt.xlim(-L*margin,L+L*margin)
