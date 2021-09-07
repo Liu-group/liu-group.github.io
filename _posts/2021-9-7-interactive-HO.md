@@ -29,9 +29,9 @@ where $\alpha$ is defined as
 
 $$ \alpha = \frac{m\omega}{\hbar}$$
 
-and $H_v(x)$ are Hermite polynomials, for which we don't have a intuition about the shapes.
+and $H_v(x)$ are Hermite polynomials, for which we don't have an intuition about the shapes.
 
-Because the complexity of the formula, visualization is important to deepen the students' understand of the Harmonic Oscillator wave functions.
+Because of the complexity of the formula, visualization is important to deepen the students' understanding of the Harmonic Oscillator wave functions.
 
 ## Try and learn
 
