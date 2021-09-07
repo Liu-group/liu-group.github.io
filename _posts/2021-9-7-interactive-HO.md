@@ -234,10 +234,6 @@ After visualizing the individual states, we can do something even more exciting.
 
 <pre data-executable="true" data-language="python">
 {% highlight python %}
-%matplotlib widget
-import ipywidgets as widgets
-import numpy as np
-import matplotlib.pyplot as plt
 fig3=plt.figure()
 
 @widgets.interact(vmax=vmax_options,m=m_options,omega=omega_options)
