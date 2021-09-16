@@ -9,7 +9,7 @@ title: Tutorial 13. Interactive -- Harmonic Oscillator in 1D
 * Play with the different parameters and try answering the questions asked at the end of this tutorial.
 
 ## Background
-1D harmonic oscillator is a simple, but very important model for chemists, because its relashion with diatomic molecule vibration. The potential of the 1D harmonic oscillator is a quadratic function with respect to the position $x$:
+1D harmonic oscillator is a simple, but very important model for chemists, because its relation with diatomic molecule vibration. The potential of the 1D harmonic oscillator is a quadratic function with respect to the position $x$:
 
 $$ V(x) = \frac{1}{2} m\omega^2 x^2 $$
 
@@ -29,9 +29,9 @@ where $\alpha$ is defined as
 
 $$ \alpha = \frac{m\omega}{\hbar}$$
 
-and $H_v(x)$ are Hermite polynomials, for which we don't have a intuition about the shapes.
+and $H_v(x)$ are Hermite polynomials, for which we don't have an intuition about the shapes.
 
-Because the complexity of the formula, visualization is important to deepen the students' understand of the Harmonic Oscillator wave functions.
+Because of the complexity of the formula, visualization is important to deepen the students' understanding of the Harmonic Oscillator wave functions.
 
 ## Try and learn
 
