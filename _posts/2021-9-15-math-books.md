@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Tutorial 13. Math courses/books useful for theo/comp chem students.
+title: Tutorial 14. Math courses/books useful for theo/comp chem students.
 ---
 
 ### Learning objectives
