@@ -312,6 +312,6 @@ def update3(npoints):
 </pre>
 
 ## Take home messages
-* "Rome wasn't built in a day." Even for this simple example of Numerov solution to PIB, we identify problems and solute them one by one to get a good numberical solution.
+* "Rome wasn't built in a day." Even for this simple example of Numerov solution to PIB, we identify problems and solve them one by one to get a good numerical solution.
 * For grid-based numerical methods, the grid size matters!
 * There is a trade-off between the accuracy and computational costs for choosing grid size.
