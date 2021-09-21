@@ -42,11 +42,11 @@ $$\psi(0)=0$$
 
 $$\psi(1)=0$$
 
-**For simplicity, assume we already know the energy of the first eigenstate is
+**For simplicity**, assume we already know the energy of the first eigenstate is
 
 $$\frac{n^2h^2}{8mL^2}=\frac{(2\pi\hbar)^2n^2}{8mL^2}=\frac{\pi^2}{2}$$
 
-(in bohr). Let's use Numerov to solve the wave function for the first eigenstate.** (In our next tutorial for Harmonic Oscillator, we will show how to search for the eigenvalues (energies) if we don't know them in advance.)
+(in bohr). Let's use Numerov to solve the wave function for the first eigenstate. (In our next tutorial for Harmonic Oscillator, we will show how to search for the eigenvalues (energies) if we don't know them in advance.)
 
 The Schrödinger equation can be simplified as
 
