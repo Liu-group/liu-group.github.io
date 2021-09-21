@@ -18,11 +18,11 @@ There is an excellent introduction to grid-based methods in the online open-sour
 Intuitively, the Numerov method is based on finite difference approximation, like other grid-based methods for solving PDE and ODE. It gives us an equation that relates the function value at three neighboring grid points. Given the function value at two initial points, we can propagate and get the function values at the rest grid points one-by-one. We can propagate from the left boundary or the right boundary and get two numerical solutions (let's call them $\psi_\mathrm{left}$ and $\psi_\mathrm{right}$), as shown in the videos below.
 
 * Run Numerov method from left:
-<iframe width="600" src="/images/tutorial15/numerov_left.mp4" frameborder="0" loop ></iframe>
+<iframe width="425" src="/images/tutorial15/numerov_left.mp4" frameborder="0" loop ></iframe>
 
 
 * Run Numerov method from right:
-<iframe width="600" src="/images/tutorial15/numerov_right.mp4" frameborder="0" loop ></iframe>
+<iframe width="425" src="/images/tutorial15/numerov_right.mp4" frameborder="0" loop ></iframe>
 
 
 This interactive tutorial will use the Numerov method to solve the particle-in-a-box problem in 1 dimension. In the next tutorial, we will use Numerov to solve the Harmonic Oscillator.
