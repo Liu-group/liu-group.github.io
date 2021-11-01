@@ -10,7 +10,7 @@ title: Tutorial 18. Visualize normal modes/energy gradients/non-adiabatic coupli
 
 ## Background
 
-Normal mode analysis is the essential tool to study polyatomic vibration. The eigenvalues ($\lambda$) obtained from normal mode analysis tell us the vibration frequencies ($\nu=\sqrt{2\lambda}$). The eigenvectors (the normal mode vectors) are also valuable because they reveal what kind of motion that mode corresponds to.  Visualization of the normal modes gives us an intuitive picture of what is happening when that mode vibrates.
+Normal mode analysis is the essential tool to study polyatomic vibration. The eigenvalues ($\lambda$) obtained from normal mode analysis tell us the vibration frequencies ($\nu is related to \sqrt{\lambda}$). The eigenvectors (the normal mode vectors) are also valuable because they reveal what kind of motion that mode corresponds to.  Visualization of the normal modes gives us an intuitive picture of what is happening when that mode vibrates.
 
 Apart from the normal modes, there are other vectors we want to visualize in computational chemistry research. For example, the gradients of energy with respect to nuclear coordinates, and non-adiabatic coupling vectors between two electronic states. All these vectors have the following features: have 3N dimensions for an N-atom molecule, and are related to the 3 cartesian coordinates of each atom. You might have seen publications with figures showing a molecule structure with arrows on each atom indicating the normal modes or nonadiabatic coupling vectors. How are those figures generated?
 
@@ -102,4 +102,4 @@ mode 4 0.00 0.88 0.00 0.00 -0.33 0.00 0.00 -0.33 0.00
 
 This part is mainly about clicking through different options of VMD. To avoid confusion, I made a video. Please watch and follow me to visualize the normal modes.
 
-<iframe width="420" height="315" src="https://youtu.be/gt2VzWNruis" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gt2VzWNruis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
