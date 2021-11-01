@@ -18,7 +18,7 @@ For example, one can visualize the normal modes as arrows along with the 3D mole
 
 One can also create animations of the vibration of a normal mode.
 
-<iframe width="600" src="/images/tutorial18/CO2_mode1.mp4" title="Visualize vibration of a normal mode as animation" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+<iframe width="600" src="/images/tutorial18/CO2_mode1.mp4" frameborder="0" loop></iframe>
 
 Apart from the normal modes, there are other vectors we want to visualize in computational chemistry research. For example, the gradients of energy with respect to nuclear coordinates, and non-adiabatic coupling vectors between two electronic states. All these vectors have the following features: have 3N dimensions for an N-atom molecule, and are related to the 3 cartesian coordinates of each atom. You might have seen publications with figures showing a molecule structure with arrows on each atom indicating the normal modes or nonadiabatic coupling vectors. How are those figures generated?
 
