@@ -10,7 +10,7 @@ title: Tutorial 18. Visualize normal modes/energy gradients/non-adiabatic coupli
 
 ## Background
 
-Normal mode analysis is the essential tool to study polyatomic vibration. The eigenvalues ($\lambda$) obtained from normal mode analysis tell us the vibration frequencies ($\nu is related to \sqrt{\lambda}$). The eigenvectors (the normal mode vectors) are also valuable because they reveal what kind of motion that mode corresponds to.  Visualization of the normal modes gives us an intuitive picture of what is happening when that mode vibrates.
+Normal mode analysis is the essential tool to study polyatomic vibration. The eigenvalues ($\lambda$) obtained from normal mode analysis tell us the vibration frequencies ($\nu$ is related to $\sqrt{\lambda}$). The eigenvectors (the normal mode vectors) are also valuable because they reveal what kind of motion that mode corresponds to.  Visualization of the normal modes gives us an intuitive picture of what is happening when that mode vibrates.
 
 For example, one can visualize the normal modes as arrows along with the 3D molecular structure.
 
