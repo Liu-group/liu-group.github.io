@@ -12,6 +12,14 @@ title: Tutorial 18. Visualize normal modes/energy gradients/non-adiabatic coupli
 
 Normal mode analysis is the essential tool to study polyatomic vibration. The eigenvalues ($\lambda$) obtained from normal mode analysis tell us the vibration frequencies ($\nu is related to \sqrt{\lambda}$). The eigenvectors (the normal mode vectors) are also valuable because they reveal what kind of motion that mode corresponds to.  Visualization of the normal modes gives us an intuitive picture of what is happening when that mode vibrates.
 
+For example, one can visualize the normal modes as arrows along with the 3D molecular structure.
+
+<img src="/images/tutorial18/CO2_mode1.jpg" alt="Visualize normal modes as vector arrows" title="Visualize normal modes as vector arrows" style="width: 500px;" />
+
+One can also create animations of the vibration of a normal mode.
+
+<iframe width="600" src="/images/tutorial18/CO2_mode1.mp4" title="Visualize vibration of a normal mode as animation" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+
 Apart from the normal modes, there are other vectors we want to visualize in computational chemistry research. For example, the gradients of energy with respect to nuclear coordinates, and non-adiabatic coupling vectors between two electronic states. All these vectors have the following features: have 3N dimensions for an N-atom molecule, and are related to the 3 cartesian coordinates of each atom. You might have seen publications with figures showing a molecule structure with arrows on each atom indicating the normal modes or nonadiabatic coupling vectors. How are those figures generated?
 
 Some commercial quantum chemistry packages compute Hessian matrices at the minimized structure and automatically do normal mode analysis, and generate corresponding file formats to be used in the corresponding commercial visualizers.
