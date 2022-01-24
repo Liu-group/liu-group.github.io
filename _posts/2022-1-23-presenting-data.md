@@ -122,7 +122,7 @@ The reason is that the two plots are not directly comparable.
    The $$\lambda$$ plot is plotted for the wavelength range of 100 nm to 1000 nm, corresponding to the frequency in the range of 3e15 Hz to 3e13 Hz.
    The ranges of frequencies are not the same in the two plots.
 
-3. The $$\nu$$ plot uses a log scale for the horizontal axis. The $$\lambda$$ plot uses a linear scale for the horizontal axis. This difference further changed the appearance of the curves make it hard to compare.
+3. The $$\nu$$ plot uses a log scale for the horizontal axis. The $$\lambda$$ plot uses a linear scale for the horizontal axis. This difference further changed the appearance of the curves, making it hard to compare.
 
 ## Take home messages
 
