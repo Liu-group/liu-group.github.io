@@ -12,7 +12,7 @@ We are passionate theoretical and computational chemists. On this site, we post 
 
 ### Visitor map of this site (before July 1, 2023)
 
-<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/6b27c817-c00b-41ec-9d48-05a47a6e2360/page/R3GUC" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/7d83f934-9749-4118-a008-0a4f2b666941/page/R3GUC" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 ### Visitor map of this site (after July 1, 2023)
 
